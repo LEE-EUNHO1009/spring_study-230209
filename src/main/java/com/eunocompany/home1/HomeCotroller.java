@@ -48,7 +48,7 @@ public class HomeCotroller {
 		return "join";
 	}
 	@RequestMapping(value = "/joinOk")
-	public String joinOk(MemberDto memberDto) {
+	public String joinOk(@ModelAttribute("dto") MemberDto memberDto) {
 		
 		return "joinOk";
 	}
