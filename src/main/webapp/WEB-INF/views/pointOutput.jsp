@@ -7,7 +7,7 @@
 <title>회원포인트</title>
 </head>
 <body>
-	회원 포인트 : ${point }
+	회원 포인트 : ${point }<br>
 	회원 포인트 : ${memberPoint }
 </body>
 </html>
